@@ -1,10 +1,9 @@
 import '../styles/main.scss';
-import '../styles/eat.scss';
-import '../styles/play.scss';
-import '../styles/fight.scss';
-import '../styles/sleep.scss';
-import eat from './components/eat';
-
+import './components/eat/eat.scss';
+import './components/sleep/sleep.scss';
+import './components/play/play.scss';
+import './components/fight/fight.scss';
+import eat from './components/eat/eat';
 
 const init = () => {
   eat.eatQuadPrinter();
