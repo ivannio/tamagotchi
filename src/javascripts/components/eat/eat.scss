@@ -1,0 +1,12 @@
+@import '../../../styles/main.scss';
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+div {
+  font-family: $cool-font;
+}
+
+#eat {
+  top: 0;
+  left: 0;
+  background-color: #004369;
+}
