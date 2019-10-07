@@ -9,4 +9,14 @@ div {
   top: 0;
   left: 0;
   background-color: #004369;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+progress {
+  background-color: green;
+  width: 40em;
+  height: 2.5em;
+	margin: 10px;
 }
