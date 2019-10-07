@@ -17,14 +17,14 @@ const eatFood = (e) => {
     }
     let stringToPrint = '<h1>EAT</h1>';
     stringToPrint += `<h2>${health}</h2>`;
-    stringToPrint += `<progress id="file" max="100" value="${health}"> ${health}% </progress>`;
+    stringToPrint += `<progress id="file" max="100" value="${health}"> ${health}% </progress><br>`;
     stringToPrint += '<button type="button" id="healthFood">Salad</button> <button type="button" id="trashFood">Hamburger</button>';
     utilities.printToDom(stringToPrint, 'eat');
   } else if (buttonID === 'trashFood') {
     health -= 3;
     let stringToPrint = '<h1>EAT</h1>';
     stringToPrint += `<h2>${health}</h2>`;
-    stringToPrint += `<progress id="file" max="100" value="${health}"> ${health}% </progress>`;
+    stringToPrint += `<progress id="file" max="100" value="${health}"> ${health}% </progress><br>`;
     stringToPrint += '<button type="button" id="healthFood">Salad</button> <button type="button" id="trashFood">Hamburger</button>';
     utilities.printToDom(stringToPrint, 'eat');
   }
@@ -34,7 +34,7 @@ const eatFood = (e) => {
 const eatQuadPrinter = () => {
   let stringToPrint = '<h1>EAT</h1>';
   stringToPrint += `<h2>${health}</h2>`;
-  stringToPrint += `<progress id="file" max="100" value="${health}"> ${health}% </progress>`;
+  stringToPrint += `<progress id="file" max="100" value="${health}"> ${health}% </progress><br>`;
   stringToPrint += '<button type="button" id="healthFood">Salad</button> <button type="button" id="trashFood">Hamburger</button>';
   utilities.printToDom(stringToPrint, 'eat');
   setEventListeners(eatFood);
