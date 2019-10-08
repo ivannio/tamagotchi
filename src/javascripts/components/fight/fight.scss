@@ -1,5 +1,11 @@
+@import '../../../styles/main.scss';
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
 #fight {
   top: 50%;
   left: 0;
   background-color: #DB1F48;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
