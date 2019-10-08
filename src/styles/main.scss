@@ -16,6 +16,17 @@ h2 {
   text-align: center;
 }
 
+div {
+  font-family: $cool-font;
+}
+
+progress {
+  background-color: green;
+  width: 70%;
+  height: 2.5em;
+	margin: 10px;
+}
+
 .quad {
     position: fixed;
     width: 50%;
