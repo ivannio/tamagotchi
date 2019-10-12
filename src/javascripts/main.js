@@ -6,11 +6,13 @@ import './components/fight/fight.scss';
 import eat from './components/eat/eat';
 import fight from './components/fight/fight';
 import sleep from './components/sleep/sleep';
+import play from './components/play/play';
 
 const init = () => {
   eat.eatQuadPrinter();
   fight.fightQuadPrinter();
   sleep.sleepQuadPrinter();
+  play.playQuadPrinter();
 };
 
 init();
